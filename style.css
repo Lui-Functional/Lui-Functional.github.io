@@ -1,0 +1,148 @@
+body {
+    margin: 0 auto;
+    background-color: #08031A;
+    background-size: cover;
+    background-image: url('images/Clouds.png');
+}
+
+body a {
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #13253b;
+    text-decoration: underline;
+}
+
+body a:active {
+    color: #dc8132;
+    text-decoration: underline;
+}
+
+#container {
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#header {
+    width: 100%;
+    background-color: #67a7d8;
+    height: 150px;
+    padding: 10px;
+    background-size: cover;
+    background-image: url('images/CloudsHeader.png');
+    border-style:inset; border-width:4px; border-color:#2b6398;
+}
+
+/* Navigation section */
+
+#navbar {
+    padding: 10px;
+    height: 40px;
+    background-color: #d5e5f2;
+    width: 100%;
+    margin-top: 10px;
+    border-style:inset; border-width:4px; border-color:#2b6398;
+}
+
+#navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    padding-top: 10px;
+}
+
+#navbar li a {
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: #13253b;
+    text-decoration: underline;
+}
+
+#navbar li a:active {
+    color: #dc8132;
+    text-decoration: underline;
+}
+
+/* Other */
+
+#content {
+    width: 100%;
+    background-color: #ddf0ff;
+    min-height:300px;
+    padding: 10px;
+    margin-top: 10px;
+    border-style:inset; border-width:4px; border-color:#2b6398;
+}
+
+#content a {
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#content a:hover {
+    color: #13253b;
+    text-decoration: underline;
+}
+
+#content a:active {
+    color: #dc8132;
+    text-decoration: underline;
+}
+
+#footer {
+    width: 100%;
+    padding: 10px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* viewer navbar */
+
+#viewernavbar {
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#viewernavbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+#viewernavbar li {
+    padding-top: 10px;
+}
+
+#viewernavbar li a {
+    color: #000000;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#viewernavbar li a:hover {
+    color: #13253b;
+    text-decoration: underline;
+}
+
+#viewernavbar li a:active {
+    color: #dc8132;
+    text-decoration: underline;
+}
